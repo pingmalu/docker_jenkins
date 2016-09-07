@@ -1,1 +1,4 @@
-# docker_jenkins
+docker-jenkins
+==============
+
+Jenkins for docker
