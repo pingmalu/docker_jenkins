@@ -1,9 +1,5 @@
 FROM ubuntu:trusty
 
-MAINTAINER Larry Cai <larry.caiyu@gmail.com>
-
-ENV REFRESHED_AT 2014-11-03
-
 RUN apt-get update  && apt-get install -qqy curl openjdk-7-jdk
 
 ENV JENKINS_HOME /opt/jenkins/data
